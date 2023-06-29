@@ -421,7 +421,7 @@ template:inverse
     * Partnerschaften, z.B. Microsoft hat über $10 Billionen investiert
     * $200 Millionen Umsatz in 2023, $1 Billionen in 2024 vorausgesagt
 --
-* Die sich am schnellsten verbreitende Software für Verbraucher der Geschichte
+* Sich am schnellsten verbreitende Verbraucher-Software der Geschichte
 
 
 ???
@@ -613,6 +613,14 @@ Sony World Photography Awards, 2023: creative photo category winner.
 
 ## DALL·E 2
   
+<img src="img/pseudomnesia_a.png" alt="pseudomnesia_a" style="width:30%;">  <img src="img/pseudomnesia_b.png" alt="pseudomnesia_b" style="width:32%;">    <img src="img/pseudomnesia_c.png" alt="pseudomnesia_c" style="width:33%;">
+
+
+---
+.header[Bildgenerierung]
+
+## DALL·E 2
+  
 <img src="img/pseudomnesia.png" alt="pseudomnesia" style="width:22%;"> 
 
 Boris Eldagsen:
@@ -641,18 +649,6 @@ Boris Eldagsen:
 
 
 .footnote[[[Allison Parshall. 2023. *How This AI Image Won a Major Photography Competition*. Scientific American.]](https://www.scientificamerican.com/article/how-my-ai-image-won-a-major-photography-competition/)]
-
-
----
-.header[Bildgenerierung]
-
-## DALL·E 2
-  
-<img src="img/pseudomnesia_a.png" alt="pseudomnesia_a" style="width:30%;">  <img src="img/pseudomnesia_b.png" alt="pseudomnesia_b" style="width:32%;">    <img src="img/pseudomnesia_c.png" alt="pseudomnesia_c" style="width:33%;">
-
----
-
-.center[<img src="img/pseudomnesia.png" alt="pseudomnesia" style="width:60%;">]  
 
 ---
 .header[Bildgenerierung | DALL·E 2]
