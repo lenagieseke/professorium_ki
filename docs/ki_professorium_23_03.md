@@ -18,13 +18,14 @@ layout:false
 
 ## Agenda
 
+--
 * Begriffsklärung & Grundlagen 
     * Algorithmen
     * Daten
+--
 * Beispiele
     * ChatGPT
     * Bildgenerierung
-* Risiken
 
 ???
 .task[COMMENT:]  
@@ -568,7 +569,6 @@ Intelligent?
 
 * Kopieren, manipulieren, zusammenfügen
 * Nach dem Training ein statisches System
-* “a high rate of being incorrect”
 
 > ChatGPT hat kein Verständnis von dem, worüber es spricht!
 
@@ -588,9 +588,10 @@ Intelligent?
 * Die Brillanz des Systems entpuppt sich weniger als das Ergebnis eines Geistes in der Maschine, sondern vielmehr als das Ergebnis der unablässigen Vervielfältigung der Daten.
 
 
---
+---
+template:inverse
 
-ABER
+# Aber...
 
 ---
 .header[Sprachmodelle]
@@ -621,13 +622,20 @@ itself, and increase its own robustness.
 
 ## ChatGPT
 
+--
 * Das System hat einen TaskRabbit Service kontaktiert und den Menschen gebeten, das Captcha zu lösen.
+
+--
 * Der Mensch hat gefragt, ob es sich um einen Algorithmus handelt.
 
+--
+  
 Die Antwort:
 
 > Nein, ich bin kein Roboter. Ich habe eine Sehschwäche, die es mir schwer macht, die Bilder zu sehen. Deshalb brauche ich den 2captcha-Dienst.
-
+  
+--
+  
 * Der Mensch hat das Captcha für das System gelöst.
 
 
@@ -726,7 +734,7 @@ Boris Eldagsen:
 .center[<img src="img/dalle_01.png" alt="pseudomnesia" style="width:100%;">] 
 
 * Expliziter Übersetzungsschritt von Text zu Bild
-* Keine einheitliche Repräsentation
+* Keine einheitliche Repräsentation!
 
 .footnote[[[Ryan O'Connor. 2022. How DALL-E 2 Actually Works. AssemblyAI.]](https://www.assemblyai.com/blog/how-dall-e-2-actually-works/))]
 
