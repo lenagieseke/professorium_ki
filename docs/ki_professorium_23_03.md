@@ -331,7 +331,7 @@ eigentlich irgendwie so aus. Es sind riesig geschachtelte Matrizen. Und die kön
 ---
 template:inverse
 
-# Beispiele
+# Anwendungsbeispiele
 
 ---
 .header[Sprachmodelle]
@@ -343,15 +343,14 @@ template:inverse
 * OpenAI, Forschungseinrichtung
     * Non-profit & for-profit 
     * Partnerschaften, z.B. Microsoft hat über $10 Billionen investiert
-    * $200 Millionen Umsatz in 2023, $1 Billionen in 2024 vorausgesagt
 --
 * Sich am schnellsten verbreitende Verbraucher-Software der Geschichte
-
 
 ???
 .task[COMMENT:]  
 
 * Generative Pretrained Transformer
+* $200 Millionen Umsatz in 2023, $1 Billionen in 2024 vorausgesagt
 
 ---
 .header[Sprachmodelle | ChatGPT]
