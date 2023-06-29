@@ -36,20 +36,11 @@ Take home message: KI ist kein Hexenwerk, mit einer überlegten Herangehensweise
 
 ### *KI in der Filmproduktion* von Björn
 
----
-template:inverse
-
-# Begriffsklärung & Grundlagen
-
-???
-.task[COMMENT:]  
-
-Ich möchte Euch heute ein Verständnis dafür vermitteln, wo wir genau
 
 ---
 layout: false
 
-## Begriffsklärung & Grundlagen
+## Künstliche Intelligenz
 
 .center[<img src="img/digital_evolution.jpg" alt="digital_evolution" style="width:100%;">]
 
@@ -59,9 +50,15 @@ layout: false
 ???
 .task[COMMENT:]  
 
+Ich möchte Euch heute ein Verständnis dafür vermitteln, wo wir genau
+
 stehen in Bezug auf Künstliche Intelligenz und ob Roboter und Algorithmen wirklich kurz davor stehen die besseren Menschen zu werden.
 
-Die tatsächlich aktuell verfügbaren Möglichkeiten fallen unter den Begriff der
+---
+template:inverse
+
+# Begriffsklärung & Grundlagen
+
 
 ---
 .header[Begriffsklärung & Grundlagen]
@@ -71,6 +68,9 @@ Die tatsächlich aktuell verfügbaren Möglichkeiten fallen unter den Begriff de
 
 ???
 .task[COMMENT:]  
+
+Die tatsächlich aktuell verfügbaren Möglichkeiten fallen unter den Begriff der
+
 
 schwachen KI, was bedeutet, dass ganz...
 
