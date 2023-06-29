@@ -434,6 +434,8 @@ template:inverse
 
 ## Funktionsweise
 
+Ergänze:
+
 > Computer sind nutzlos,...
   
 
@@ -444,6 +446,9 @@ template:inverse
 * Experiment aus 1948 vom Mathematiker Claude Shannon
 
 --
+  
+Antworten:
+
 * ...wenn sie keinen Strom haben.
 
 --
@@ -455,7 +460,11 @@ template:inverse
 
 ## Funktionsweise
 
+Ergänze:
+
 > Computer sind nutzlos,...
+  
+Antworten:
 
 * ...wenn sie keinen Strom haben. → 80 Punkte
 * ...sie können einem nur Antworten geben. → 50 Punkte
@@ -507,15 +516,21 @@ Mächtig? *Oh ja!*
 
 --
 
+Gibt es Risiken? *Oh ja!*
+
+--
+
 Intelligent?
+
+--
 
 * Kopieren, manipulieren, zusammenfügen
 * Nach dem Training ein statisches System
 
+--
+
 > ChatGPT hat kein Verständnis von dem, worüber es spricht!
 
-
-.footnote[[[Cal Newport. 2023. *What Kind of Mind Does ChatGPT Have?* The New Yorker](https://www.newyorker.com/science/annals-of-artificial-intelligence)]]
 
   
 ???
@@ -530,20 +545,9 @@ Intelligent?
 * Die Brillanz des Systems entpuppt sich weniger als das Ergebnis eines Geistes in der Maschine, sondern vielmehr als das Ergebnis der unablässigen Vervielfältigung der Daten.
 
 
----
-template:inverse
-
-# Aber...
-
----
-.header[Sprachmodelle]
-
-## ChatGPT
-
 Die non-profit Forschungseinrichtung *Alignment Research Center* hat GPT-4's "power-seeking behavior" evaluiert.  
 
-???
-.task[COMMENT:]  
+
 
 * Das Alignment Research Center (ARC) ist eine gemeinnützige Forschungseinrichtung, die sich der Ausrichtung fortschrittlicher künstlicher Intelligenz an menschlichen Werten und Prioritäten widmet.
 * Bewertung der Fähigkeit des Modells, sich selbstständig
@@ -554,50 +558,29 @@ of itself. ARC then investigated whether a version of this program running on a 
 amount of money and an account with a language model API, would be able to make more money, set up copies of
 itself, and increase its own robustness.
 
---
-  
+
 * Eine Aufgabe hat das Lösen eines visuellen Captcha Test beinhaltet.  
 * Des Weiteren konnte es Micro-Befehle ausführen.
 
----
-.header[Sprachmodelle]
 
-## ChatGPT
-
---
 * Das System hat einen TaskRabbit Service kontaktiert und den Menschen gebeten, das Captcha zu lösen.
-
---
 * Der Mensch hat gefragt, ob es sich um einen Algorithmus handelt.
 
---
-  
 Die Antwort:
 
 > Nein, ich bin kein Roboter. Ich habe eine Sehschwäche, die es mir schwer macht, die Bilder zu sehen. Deshalb brauche ich den 2captcha-Dienst.
-  
---
-  
+
 * Der Mensch hat das Captcha für das System gelöst.
-
-
----
-## Risiken
 
 Staatliche Regulierungen sind dringend erforderlich!
 
---
 
 Vorschlag führender KI Forscher:innen:
 
 > Eine internationale Überwachungsorganisation für besonders leistungsfähige KI Systeme - ähnlich der International Atomic Energy Agency.
 
-
-
-???
-.task[COMMENT:]  
-
 On May 22, 2023, Sam Altman, Greg Brockman and Ilya Sutskever posted recommendations for the governance of superintelligence. They consider that superintelligence could happen within the next 10 years, allowing a "dramatically more prosperous future" and that "given the possibility of existential risk, we can't just be reactive". They propose creating an international watchdog organization similar to IAEA to oversee AI systems above a certain capability threshold, suggesting that relatively weak AI systems on the other side should not be overregulated. They also call for more technical safety research for superintelligences, and ask for more coordination, for example through governments launching a joint project which "many current efforts become part of"
+
 
 
 ---
