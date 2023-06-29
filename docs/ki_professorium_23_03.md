@@ -25,14 +25,13 @@ layout:false
 ## Agenda
 
 * Begriffsklärung & Grundlagen 
-    * Algorithmen
-    * Daten
+
 ???
 .task[COMMENT:]  
 
 ...werde ich auf Begrifflichkeiten und ein paar Grundlagen eingehen
 --
-* Beispiele
+* Anwendungsbeispiele
     * ChatGPT
     * Bildgenerierung
 
@@ -97,7 +96,7 @@ template:inverse
 schwachen KI, was bedeutet, dass...
 
 
-...bestimmte Aufgaben in einem eingeschränkten Themenbereich....
+...bestimmte Aufgaben....
 
 
 ---
@@ -206,7 +205,7 @@ Also, klassische Anweisungen könnten wie folgt aussehen
 ???
 .task[COMMENT:]  
 
-Falls der Wert für den wir entscheiden wollen auf welcher Seite er liegt, größer als 50 ist, dann liegt er auf der rechten seite. Bei allen anderen Werten, also allen kleiner gleich 50, liegt der Wert auf der linken Seite.
+Falls der Wert für den wir entscheiden wollen auf welcher Seite er liegt, größer als 50 ist, dann liegt er auf der rechten Seite. Bei allen anderen Werten, also allen kleiner gleich 50, liegt der Wert auf der linken Seite.
 
 Und hiermit habe sie auch gleich ein bisschen Programmieren gelernt.
 
@@ -286,6 +285,7 @@ bekommen wir nun einen neuen Wert rein entscheiden wir für diesen anhand der vo
 .task[COMMENT:]  
 Und genau das ist Maschinelles Lernen
 
+---------------
 
 In der klassischen Programmierung geben wir Anweisungen und Daten im Vorfeld vor und berechnen dann anhand dieser Anweisungen das Ergebnis.
 
@@ -312,18 +312,6 @@ Und genau deswegen, sind diese Algorithmen erst relativ kürzliche so mächtig g
 
 Eine der größten Probleme bei diesen Verfahren ist es, dass sie sogenannte Black Boxes sind. Was bedeutet das bzw. warum ist das so?
 
----
-.header[Begriffsklärung & Grundlagen | Schwache KI]
-
-## Deep Learning
-
-.center[<img src="img/go_network.png" alt="go_network" style="width:100%;">]  
-.footnote[[[Bild: Library of Congress]](https://blogs.loc.gov/maps/category/game-theory/)]
-
-
-???
-.task[COMMENT:]  
-
 Wie schon gesagt, für gute funktionierende System braucht man riesige Netzwerke das z.B. bestimmte Eigenschaften klassifiziert. Diese Eigenschaften sind aber eigentlich nichts anderes als Gewichte der Nodes im Graph, also Zahlenwerte. Die Muster und Merkmale anhand denen Klassifiziert werden sehen also 
 
 ---
@@ -339,70 +327,6 @@ Wie schon gesagt, für gute funktionierende System braucht man riesige Netzwerke
 .task[COMMENT:]  
 
 eigentlich irgendwie so aus. Es sind riesig geschachtelte Matrizen. Und die können unsere auf diesem Bereich sehr eingeschränkten Gehirne nicht verarbeiten und verstehen und das macht die Verfahren zu sogenannten Blackbox Verfahren.
-
-Und auch noch mal zu den Trainigsdaten selbst. 
-
--------------
-
-Wie gesagt, Andrew Ng hat das seine ersten Deep Learning Versuche mit 10 Millionen YouTube-Videos trainiert. Die kann auch kein Mensch durchgehen und gucken, ob das auch sinnvolles Datenmaterial ist.
-
----
-.header[Begriffsklärung & Grundlagen | Schwache KI]
-
-## Daten
-
-???
-.task[COMMENT:]  
-
-Man muss sich bewusst machen, dass die Daten von uns kommen...
-
---
-
-.center[<img src="img/mirror_02.png" alt="mirror_02" style="width:50%;">]  
-
-
----
-.header[Begriffsklärung & Grundlagen | Schwache KI]
-
-## Daten
-
-.center[<img src="img/mirror_01.png" alt="mirror_01" style="width:50%;">]  
-
-
-???
-.task[COMMENT:]  
-
-...quasi die Daten sind ein Spiegel von uns, unserer Gesellschaft und in den Systemen manifestieren sich somit alle unsere Fehler, alle unsere Vorurteile.
-
-Es gibt in der Informatik den schönen Spruch, 
-
---
-
-> Garbage in, garbage out...
-
-
-???
-.task[COMMENT:]  
-
-Garbage in, garbage out... also wenn man Müll reingibt, kommt auch Müll wieder raus. Und genauso ist diesen Algorithmen. Und da es so großen Datenmengen sind, können wir sie nicht so einfach auf ungewollte mögliche systematische Fehler prüfen. Und diese systematischen Fehler lauern wirklich überall. 
-
-Ich habe z.B. kürzlich mit eine neuen Kamera, die OakD getestet. Die Kamera enthält spezielle Hardware für die Berechnung von Neuronalen Netzen. Ein Beispiel die in der Dokumentation der Kamera enthalten ist, bestimmt das Geschlecht und Alter automatisch.
-
----
-.header[Begriffsklärung & Grundlagen | Schwache KI | Daten]
-
-## Systematische Fehler
-
-.center[<img src="img/oakd.gif" alt="oakd" style="width:55%;">]  
-
-
-???
-.task[COMMENT:]  
-
-Finde den Fehler. 
-
-Während beim Alter noch eine gewisse Unsicherheit besteht, zweifelt das Programm nicht ein einziges mal daran dass ich männlich bin Und den Herstellen scheint das auch nicht aufgefallen zu sein. Naja.
-
 
 ---
 template:inverse
@@ -516,7 +440,7 @@ Mächtig? *Oh ja!*
 
 --
 
-Gibt es Risiken? *Oh ja!*
+Risiken? *Oh ja!*
 
 --
 
@@ -634,21 +558,10 @@ Boris Eldagsen:
 ???
 .task[COMMENT:]  
 
-I used DALL-E 2, and it was all done by text prompts and inpainting and outpainting. For inpainting, you could say, “I don’t like his tie,” and you erase it and write, “I want him to have a white tie.” Then you get suggestions. And if you don’t like any of those suggestions, you start again. Outpainting [is what] you do when the frame is not large enough. You put in an additional frame so you can see his whole tie, his pants, the chair, the floor. It’s endless.
-
----
-.header[Bildgenerierung]
-
-## DALL·E 2
-  
-<img src="img/pseudomnesia.png" alt="pseudomnesia" style="width:22%;"> 
-
-Boris Eldagsen:
-  
 > Let's call it promptography?
 
 
-.footnote[[[Allison Parshall. 2023. *How This AI Image Won a Major Photography Competition*. Scientific American.]](https://www.scientificamerican.com/article/how-my-ai-image-won-a-major-photography-competition/)]
+I used DALL-E 2, and it was all done by text prompts and inpainting and outpainting. For inpainting, you could say, “I don’t like his tie,” and you erase it and write, “I want him to have a white tie.” Then you get suggestions. And if you don’t like any of those suggestions, you start again. Outpainting [is what] you do when the frame is not large enough. You put in an additional frame so you can see his whole tie, his pants, the chair, the floor. It’s endless.
 
 ---
 .header[Bildgenerierung | DALL·E 2]
@@ -659,6 +572,8 @@ Boris Eldagsen:
 .center[<img src="img/dalle_01.png" alt="pseudomnesia" style="width:100%;">] 
 
 * Expliziter Übersetzungsschritt von Text zu Bild
+
+--
 * Keine einheitliche Repräsentation!
 
 .footnote[[[Ryan O'Connor. 2022. How DALL-E 2 Actually Works. AssemblyAI.]](https://www.assemblyai.com/blog/how-dall-e-2-actually-works/))]
