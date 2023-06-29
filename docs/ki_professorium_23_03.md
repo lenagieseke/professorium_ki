@@ -658,6 +658,10 @@ Vorschlag führender KI Forscher:innen:
 On May 22, 2023, Sam Altman, Greg Brockman and Ilya Sutskever posted recommendations for the governance of superintelligence. They consider that superintelligence could happen within the next 10 years, allowing a "dramatically more prosperous future" and that "given the possibility of existential risk, we can't just be reactive". They propose creating an international watchdog organization similar to IAEA to oversee AI systems above a certain capability threshold, suggesting that relatively weak AI systems on the other side should not be overregulated. They also call for more technical safety research for superintelligences, and ask for more coordination, for example through governments launching a joint project which "many current efforts become part of"
 
 
+---
+template:inverse
+
+# Bilder
 
 ---
 
@@ -746,18 +750,6 @@ Boris Eldagsen:
 2. Next, a model called the prior maps the text encoding to a corresponding image encoding that captures the semantic information of the prompt contained in the text encoding.
 3. Finally, an image decoder stochastically generates an image which is a visual manifestation of this semantic information.
 
----
-## Starke KI
-
-.center[<img src="img/robots.png" alt="robots" style="width:70%;">]  .footnote[[[Bild: Growth Mantra]](https://www.growthmantra.com.au/thinking/)]
-
-Menschen-ähnliche Maschinen sind nach wie vor Science Fiction!
-
-
-???
-.task[COMMENT:]  
-
-Also *fabelhafte Maschinen* die alle unsere Sinne und unseren Verstand haben und denken wie wir.
 
 
 ---
