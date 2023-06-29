@@ -13,15 +13,24 @@ class: center, middle, inverse
 
 #### 30.06.2023 | Professorium
 
+
+???
+.task[COMMENT:]  
+
+Björn und ich möchten einen kurzen Impuls zu Thema KI geben, und zwar...
+
 ---
 layout:false
 
 ## Agenda
 
---
 * Begriffsklärung & Grundlagen 
     * Algorithmen
     * Daten
+???
+.task[COMMENT:]  
+
+...werde ich auf Begrifflichkeiten und ein paar Grundlagen eingehen
 --
 * Beispiele
     * ChatGPT
@@ -29,6 +38,12 @@ layout:false
 
 ???
 .task[COMMENT:]  
+
+... und zwei Beispiele geben, mit dem Ziel ein intuitives Verständnis jenseits des Hypes zu vermitteln.
+
+Björn wirft dann einen genaueren Blick auf...
+
+-----------
 
 Storyline: Intuitives Verständnis jenseits des Hypes
 Take home message: KI ist kein Hexenwerk, mit einer überlegten Herangehensweise und bestimmten Regulierungen stellt es einen großen Mehrwert dar.
@@ -51,9 +66,10 @@ layout: false
 ???
 .task[COMMENT:]  
 
-Ich möchte Euch heute ein Verständnis dafür vermitteln, wo wir genau
+Also, stehen Roboter und Algorithmen kurz davor die besseren Menschen zu werden?
 
-stehen in Bezug auf Künstliche Intelligenz und ob Roboter und Algorithmen wirklich kurz davor stehen die besseren Menschen zu werden.
+Die tatsächlich aktuell verfügbaren Möglichkeiten...
+
 
 ---
 template:inverse
@@ -61,6 +77,12 @@ template:inverse
 # Begriffsklärung & Grundlagen
 
 
+???
+.task[COMMENT:]  
+
+... fallen unter den Begriff der
+
+
 ---
 .header[Begriffsklärung & Grundlagen]
 
@@ -70,31 +92,22 @@ template:inverse
 ???
 .task[COMMENT:]  
 
-Die tatsächlich aktuell verfügbaren Möglichkeiten fallen unter den Begriff der
 
 
-schwachen KI, was bedeutet, dass ganz...
-
---
-
-Bestimmte Aufgaben werden genauso gut oder besser als von Menschen erledigt.
+schwachen KI, was bedeutet, dass...
 
 
-???
-.task[COMMENT:]  
+...bestimmte Aufgaben in einem eingeschränkten Themenbereich....
 
-...bestimmte Aufgaben in einem eingeschränkten Themenbereich genauso gut oder besser als von Menschen erledigt werden.
 
-Hier ist es die sehr wichtige Unterscheidung zur menschlichen Intelligenz, dass es aktuell kein oder nur sehr eingeschränktes automatisches Übertragen von Kompetenz und Wissen in einem Aufgabenbereich zu einem anderen gibt. Algorithmen haben kein abstrahierendes, übergeordnetes Verstehen. 
+---
+.header[Begriffsklärung & Grundlagen]
 
-Nichtsdestotrotz gibt es 
-
---
+## Schwache KI
 
 * Wahrnehmen
 * Kommunizieren
 * Planen
-* Handeln
 * Schlussfolgern
 * Lernen
 
@@ -102,20 +115,19 @@ Nichtsdestotrotz gibt es
 ???
 .task[COMMENT:]  
 
+typisch menschlicher Kernfähigkeiten genauso gut oder besser als von Menschen erledigt werden.
 
-ein breites Spektrum an - typisch menschlichen - Kernfähigkeiten für schwache KI, wie situatives Wahrnehmen, Kommunizieren, Planen, Handeln, Schlussfolgern oder aber auch lernen.
+Aktuell stehen hier...
+
 
 ---
 .header[Begriffsklärung & Grundlagen]
 
 ## Schwache KI
 
-Bestimmte Aufgaben werden genauso gut oder besser als von Menschen erledigt.
-
 * Wahrnehmen
 * Kommunizieren
 * Planen
-* Handeln
 * Schlussfolgern
 * **Lernen**
 
@@ -123,7 +135,8 @@ Bestimmte Aufgaben werden genauso gut oder besser als von Menschen erledigt.
 ???
 .task[COMMENT:]  
 
-Dabei sind aktuell vor allem durch Daten selbstlernende Systeme im Fokus.
+vor allem durch Daten selbstlernende Systeme im Fokus.
+
 
 Lernen kann man als...  
 
@@ -179,8 +192,6 @@ Als Beispiel haben wir folgendes Szenario: eine Fläche mit einer Breite von lin
 .task[COMMENT:]  
 
 wie hier zum Beispiel den Wert 80, entscheiden, ob dieser Wert auf der linken Seite oder rechten Seite liegt.
-
-In einer echten Vorlesung würde ich Sie nun fragen, ob sie Ideen für mögliche Anweisungen für haben, aber auf Grund der kürze der Zeit für die Probevorlesung bleibe ich beim frontalen Stil und hoffe, dass sie sich trotzdem mit einbezogen fühlen.
 
 Also, klassische Anweisungen könnten wie folgt aussehen
 
@@ -271,14 +282,6 @@ bekommen wir nun einen neuen Wert rein entscheiden wir für diesen anhand der vo
 
 
 
----
-.header[Begriffsklärung & Grundlagen | Schwache KI]
-
-## Anweisungen vs. Lernen
-
-.center[<img src="img/ml_15.png" alt="ml_15" style="width:100%;">]
-
-
 ???
 .task[COMMENT:]  
 Und genau das ist Maschinelles Lernen
@@ -288,21 +291,14 @@ In der klassischen Programmierung geben wir Anweisungen und Daten im Vorfeld vor
 
 Beim maschinellen Lernen starten wir mit einer Reihe an möglichen Ergebnissen und versuchen anhand dieser Daten ein Programm zu erzeugen, dass uns für neue Daten die gleichen Ergebnisse liefert.
 
-
 ---
 .header[Begriffsklärung & Grundlagen | Schwache KI]
 
 ## Anweisungen vs. Lernen
 
-.center[<img src="img/ml_11.png" alt="ml_11" style="width:100%;">]
 
+.center[<img src="img/ml_05.png" alt="ml_05" style="width:100%;">]
 
-???
-.task[COMMENT:]  
-
-und als Wert die 49 bestimmen würden, würden wir auf basis der aktuellen Trainigsdaten, 49 der rechten Seite zu ordnen, da der Wert der 55 ähnlicher ist das der 40. Uns fehlen zwischen 40 und 50 Daten.
-
---
 
 Wir brauchen sehr viele Daten!
 
@@ -310,7 +306,7 @@ Wir brauchen sehr viele Daten!
 ???
 .task[COMMENT:]  
 
-Sprich für hochwertige ML Algroithmen brauchen wir sehr viele.
+Wir brauchen sehr viele Daten um in einen unbekannten Raum mit unbekannte Objekten, die Eigenschaften dieser Objekte zu lernen. 
 
 Und genau deswegen, sind diese Algorithmen erst relativ kürzliche so mächtig geworden. Nämlich seitdem immer mehr Daten und Rechenleistung zur für das Trainieren zur Verfügung stehen.
 
@@ -344,7 +340,11 @@ Wie schon gesagt, für gute funktionierende System braucht man riesige Netzwerke
 
 eigentlich irgendwie so aus. Es sind riesig geschachtelte Matrizen. Und die können unsere auf diesem Bereich sehr eingeschränkten Gehirne nicht verarbeiten und verstehen und das macht die Verfahren zu sogenannten Blackbox Verfahren.
 
-Und auch noch mal zu den Trainigsdaten selbst. Wie gesagt, Andrew Ng hat das seine ersten Deep Learning Versuche mit 10 Millionen YouTube-Videos trainiert. Die kann auch kein Mensch durchgehen und gucken, ob das auch sinnvolles Datenmaterial ist.
+Und auch noch mal zu den Trainigsdaten selbst. 
+
+-------------
+
+Wie gesagt, Andrew Ng hat das seine ersten Deep Learning Versuche mit 10 Millionen YouTube-Videos trainiert. Die kann auch kein Mensch durchgehen und gucken, ob das auch sinnvolles Datenmaterial ist.
 
 ---
 .header[Begriffsklärung & Grundlagen | Schwache KI]
@@ -476,80 +476,22 @@ template:inverse
 ???
 .task[COMMENT:]  
 
+* Die statistische Substruktur von Sprache
+* Die Menge der Trainingsdaten entspräche ausgedruckt "hunderttausenden von Büchern".
+* Reinforcement learning, damit sich ChatGPT natürlich verhält
+
+
+--------------
+
 Unser Programm kann dann die tabellierten Stimmen verwenden, um ein wenig Abwechslung in seine Auswahl zu bringen, indem es das nächste Wort halb zufällig auswählt, wobei Wörter mit höherer Punktzahl häufiger ausgewählt werden als solche mit niedrigerer Punktzahl. Wenn ein solches System richtig konfiguriert ist und mit einer ausreichend umfangreichen und abwechslungsreichen Sammlung von Ausgangstexten ausgestattet ist, kann es lange Passagen mit sehr natürlich klingender Prosa produzieren.
 
 Die technischen Details der Funktionsweise dieser Netze sind für unsere Zwecke eher nebensächlich. Wichtig ist, dass eine Anfrage auf ihrem Weg durch die einzelnen Ebenen eine große Anzahl undurchschaubarer mathematischer Berechnungen auslöst, die zusammen mehr oder weniger eine komprimierte, durcheinander gewürfelte Version der allgemeinen regelbasierten Wortabstimmungsstrategie darstellen, die wir gerade beschrieben haben. Die endgültige Ausgabe, nachdem Ihre Eingabe all diese Ebenen durchlaufen hat, ist etwas, das sich einer Stimmenauszählung für jedes mögliche nächste Wort annähert. Das Steuerprogramm verwendet diese Zählungen, um halb zufällig auszuwählen, was als nächstes kommt.
 
 Die Schichten werden Transformatorblöcke genannt und kombinieren standardmäßige neuronale Feed-Forward-Netze mit einer innovativen Technik, die als mehrköpfige Selbstaufmerksamkeit bekannt ist.
 
-
----
-.header[Sprachmodelle | ChatGPT | Funktionsweise]
-
-## Tokenizer
-
-Die statistische Substruktur von Sprache:
-
-.center[<img src="img/gpt_01.png" alt="gpt_01" style="width:100%;">]  
-
-.footnote[[[OpenAI. 2023. *Tokenizer*.](https://platform.openai.com/tokenizer)][[Cal Newport. 2023. *What Kind of Mind Does ChatGPT Have?* The New Yorker](https://www.newyorker.com/science/annals-of-artificial-intelligence)]]
-
-
-???
-.task[COMMENT:]  
-
-* Sinnhaftigkeit durch ein Netz an detaillierten Regeln
-
-Die Modelle der GPT-Familie verarbeiten Text anhand von Token, d. h. häufigen Zeichenfolgen, die im Text vorkommen. Die Modelle verstehen die statistischen Beziehungen zwischen diesen Token und zeichnen sich dadurch aus, dass sie das nächste Token in einer Folge von Token produzieren.
-
-
----
-.header[Sprachmodelle | ChatGPT | Funktionsweise]
-
-## Tokenizer
-
-.center[<img src="img/gpt_02.png" alt="gpt_02" style="width:100%;">]  
-
-
-.footnote[[[OpenAI. 2023. *Tokenizer*.]](https://platform.openai.com/tokenizer)]
-
-
-???
-.task[COMMENT:]  
-
-Eine hilfreiche Faustregel besagt, dass ein Token im Allgemeinen ~4 Zeichen Text für einen gewöhnlichen englischen Text entspricht. Dies entspricht etwa ¾ eines Wortes (also 100 Token ~= 75 Wörter).
-
----
-.header[Sprachmodelle | ChatGPT]
-
-## Funktionsweise
-
-Die Menge der Trainingsdaten entspräche ausgedruckt "hunderttausenden von Büchern".
-
-.footnote[[[Cal Newport. 2023. *What Kind of Mind Does ChatGPT Have?* The New Yorker](https://www.newyorker.com/science/annals-of-artificial-intelligence)]]
-
-
-???
-.task[COMMENT:]  
-
-* Reinforcement learning, damit sich ChatGPT natürlich verhält
-
-
----
-.header[Sprachmodelle]
-
-## ChatGPT
-
-
 Vervollständige den Satz "Computer sind nutzlos, ...":
 
 > Computer sind nutzlos, wenn sie nicht richtig programmiert oder konfiguriert sind.
->
-
----
-.header[Sprachmodelle]
-
-## ChatGPT
 
 
 Vervollständige den Satz "Computer sind nutzlos, ..." von Picasso:
@@ -745,6 +687,10 @@ Boris Eldagsen:
 
 ???
 .task[COMMENT:]  
+
+Hier ist es die sehr wichtige Unterscheidung zur menschlichen Intelligenz, dass es aktuell kein oder nur sehr eingeschränktes automatisches Übertragen von Kompetenz und Wissen in einem Aufgabenbereich zu einem anderen gibt. Algorithmen haben kein abstrahierendes, übergeordnetes Verstehen. 
+
+-------------------
 
  1. First, a text prompt is input into a text encoder that is trained to map the prompt to a representation space.
 2. Next, a model called the prior maps the text encoding to a corresponding image encoding that captures the semantic information of the prompt contained in the text encoding.
