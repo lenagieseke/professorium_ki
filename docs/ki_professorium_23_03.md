@@ -329,6 +329,41 @@ Wie schon gesagt, für gute funktionierende System braucht man riesige Netzwerke
 eigentlich irgendwie so aus. Es sind riesig geschachtelte Matrizen. Und die können unsere auf diesem Bereich sehr eingeschränkten Gehirne nicht verarbeiten und verstehen und das macht die Verfahren zu sogenannten Blackbox Verfahren.
 
 ---
+.header[Begriffsklärung & Grundlagen | Schwache KI | Daten]
+
+## Systematische Fehler
+
+
+???
+.task[COMMENT:]  
+
+Man muss sich bewusst machen, dass die Daten von uns kommen...
+
+...quasi die Daten sind ein Spiegel von uns, unserer Gesellschaft und in den Systemen manifestieren sich somit alle unsere Fehler, alle unsere Vorurteile.
+
+Es gibt in der Informatik den schönen Spruch, Garbage in, garbage out... also wenn man Müll reingibt, kommt auch Müll wieder raus. Und genauso ist diesen Algorithmen. Und da es so großen Datenmengen sind, können wir sie nicht so einfach auf ungewollte mögliche systematische Fehler prüfen. Und diese systematischen Fehler lauern wirklich überall. 
+
+---
+.header[Begriffsklärung & Grundlagen | Schwache KI | Daten]
+
+## Systematische Fehler
+
+
+.center[<img src="img/oakd.gif" alt="oakd" style="width:55%;">]  
+
+
+???
+.task[COMMENT:]  
+
+Ich habe z.B. kürzlich mit eine neuen Kamera, die OakD getestet. Die Kamera enthält spezielle Hardware für die Berechnung von Neuronalen Netzen. Ein Beispiel die in der Dokumentation der Kamera enthalten ist, bestimmt das Geschlecht und Alter automatisch.
+
+Finde den Fehler. 
+
+Während beim Alter noch eine gewisse Unsicherheit besteht, zweifelt das Programm nicht ein einziges mal daran dass ich männlich bin Und den Herstellen scheint das auch nicht aufgefallen zu sein. Naja.
+
+
+
+---
 template:inverse
 
 # Anwendungsbeispiele
